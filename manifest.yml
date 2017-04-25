@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: RPI3SenseHat
+  host: RPI3SenseHat
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-bc-RPI3
+  - Cloudant NoSQL DB-8i
